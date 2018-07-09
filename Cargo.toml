@@ -1,0 +1,21 @@
+[package]
+name = "flatarchive"
+version = "0.0.1"
+authors = ["Samantha Enders <ladysamantha@pm.me>"]
+license = "GPL-3.0"
+readme = "README.md"
+repository = "https://github.com/ladysamantha/flatarchive"
+description = "A archive utility (à la tar) in rust"
+keywords = [
+  "archive",
+  "tar",
+  "utility"
+]
+
+[[bin]]
+name = "far"
+path = "src/main.rs"
+
+[dependencies]
+bzip2 = "0.3.3"
+quickcheck = "0.6.2"
